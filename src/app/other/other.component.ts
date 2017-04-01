@@ -12,4 +12,7 @@ export class OtherComponent {
   stringInterpolation = 'This is string interpolation';
   numberInterpolation = 5;
 
+  onClicked(value:string){
+    alert(value);
+  }
 }
