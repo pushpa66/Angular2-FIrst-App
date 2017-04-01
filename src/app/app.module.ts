@@ -5,11 +5,19 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { OtherComponent } from './other/other.component';
+import { PropertyBindingComponent } from './other/property-binding.component';
+import { EventBindingComponent } from './other/event-binding.component';
+import { TwoWayBindingComponent } from './other/two-way-binding.component';
+import { LifecycleComponent } from './lifecycle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OtherComponent
+    OtherComponent,
+    PropertyBindingComponent,
+    EventBindingComponent,
+    TwoWayBindingComponent,
+    LifecycleComponent
   ],
   imports: [
     BrowserModule,
